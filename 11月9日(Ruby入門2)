@@ -1,0 +1,6 @@
+git add -u :　変更したファイルのみgitに追加できる。
+form_with : form_tag, form_forの合体版。　新規作成フォームなどで使用。入力された内容を保存。
+pluralize　: 文字を複数形にできる。　
+            例）pluralize(user.errors.count, "error")→　 出力）　1 error, 2 errors　
+ヘルパー　: RailsのヘルパーはViewで使える便利メソッドのこと。
+部分テンプレートは頭に「＿」がついたファイル名になる。
