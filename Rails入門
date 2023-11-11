@@ -22,3 +22,9 @@
             ActiveRecord　: RubyとSQLの翻訳機。Rubyの記述法で書いたコードをSQLに変換してデータベースに送る。
             クエリ　: 命令文のこと。（SQLは言語のこと）
             スキーマ　: 何かの構造のこと。
+
+11/11 Rails 入門８
+            ||= : 左辺が偽ならば、右辺を代入する。
+            　　　　　   例）　@current_user ||= User.find_by(id: session[:user_id])
+            　　　　　　　　　　　　　　　　@current_userが設定されていなければ、右辺のコードを代入する。
+            helper_method : コントローラーに書かれたメソッドをビューからも使用できるようにする。
