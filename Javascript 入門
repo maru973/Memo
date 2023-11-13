@@ -1,5 +1,5 @@
 11/13 Javascript　入門　１
-      <script></script> : HTMLなどにJavascriptを埋め込める。
-      <script src="script.js" defer></script>　: script.jsファイルを取り込める。
+            <script></script> : HTMLなどにJavascriptを埋め込める。
+            <script src="script.js" defer></script>　: script.jsファイルを取り込める。
     　　　Javascript 入門　３
-      DOM : Webページをコンピュータが理解しやすい形に変換するもの。
+            DOM : Webページをコンピュータが理解しやすい形に変換するもの。
