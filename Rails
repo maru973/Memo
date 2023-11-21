@@ -42,3 +42,12 @@
             data: {turbo_method: :delete}　: Rails7では method: :deleteの代わりに使う。
             see: :other : DELETEメソッドを処理するときに使う。　このコードを書かないと削除したくないデータまで消える可能性がある。
             ホワイトリスト : そこに指定したものだけ、許可する。（＜＝＞ブラックリスト）
+
+11/21 Rails基礎５
+            add_flash_types : これを書くことでviewでflashと書かなくても良くなる。＝コードを減らせる。
+                        例）# BEFORE
+                        redirect_to login_path, flash: { success: 'hoge' }
+
+                        # AFTER
+                        redirect_to login_path, success: 'hoge'
+            status: :unprocessable_entity　: renderメソッド実行するときのFlashメッセージやエラーメッセージに必要。つけないとメッセージが表示されない。
