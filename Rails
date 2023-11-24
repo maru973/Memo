@@ -51,6 +51,7 @@
                         # AFTER
                         redirect_to login_path, success: 'hoge'
             status: :unprocessable_entity　: renderメソッド実行するときのFlashメッセージやエラーメッセージに必要。つけないとメッセージが表示されない。
+
 11/23 Rails基礎７
             seed.rb : ダミーのデータを入れるファイル
             Faker : ダミーのデータを作ってくれるgem
@@ -59,3 +60,7 @@
             config.time_zone = 'Tokyo'　 : 時間を日本時間に設定する。
             rails g model モデル名 user:references : 外部キーを作るときはこの方法で生成する。外部キーの制約がされる。
             user_ids = User.ids : ユーザーモデルでできた複数のidを取得する。
+
+11/24 Rails基礎８
+            @board.errors.full_messages　: 期待とは違う条件文の処理が行われたときに確認するために使う。
+
