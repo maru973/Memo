@@ -63,4 +63,4 @@
 
 11/24 Rails基礎８
             @board.errors.full_messages　: 期待とは違う条件文の処理が行われたときに確認するために使う。
-
+            form_with : modelオプションを使用したform_withではRailsが勝手に翻訳設定を読み込んでくれる
