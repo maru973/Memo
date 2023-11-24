@@ -66,3 +66,5 @@
             form_with : modelオプションを使用したform_withではRailsが勝手に翻訳設定を読み込んでくれる
             モデル名.model_name.human : モデル名を人間が読みやすい形にする。
             current_user.boards.build : newの時と挙動は同じだが、通常の初期化と区別するために使う。
+      Rails基礎９
+            class="alert alert-danger" : Bootstrapのdangerスタイルを使える。
