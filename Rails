@@ -72,7 +72,10 @@
 11/25 Rails基礎１０
             Capybara : ブラウザでのクリックや入力などの手動テストを、コードで書いてプログラムで実行してくれるgemのこと。
             accept: 'image/*　: ファイルフィルターを指定するオプション。
+
 11/29 Rails基礎１２
             content_for : このブロック内で生成された情報はyeildに渡される。
             yeild : 他のビューを呼び出す。content_forと同じ名前をつけることで、特定して呼び出せる。
-            
+　　　　　　　　　　
+　　　　　　　　　　　Rails基礎１３
+            find_by : find_byしたオブジェクトが空の場合、nilを返す。　findと違い、引数はキーが必要。　find_by(id: params[:id])　<=>　find(params[:id])
