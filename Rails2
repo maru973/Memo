@@ -2,3 +2,5 @@
       turbo_stream : 画面遷移をせずに処理を行える。（Ajax化）　turbo-frameよりも柔軟性がある。
       turbo-frame　: 一部のみだけAjax化。
 
+12/9 Rails基礎１６
+      distinct: true : 関連する子テーブルの情報を条件に絞り込んで、親テーブルの検索結果を表示するときに必要。（ransackにおいて）
