@@ -1,0 +1,4 @@
+12/8 Rails基礎１５　
+      turbo_stream : 画面遷移をせずに処理を行える。（Ajax化）　turbo-frameよりも柔軟性がある。
+      turbo-frame　: 一部のみだけAjax化。
+
