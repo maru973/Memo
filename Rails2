@@ -4,3 +4,9 @@
 
 12/9 Rails基礎１６
       distinct: true : 関連する子テーブルの情報を条件に絞り込んで、親テーブルの検索結果を表示するときに必要。（ransackにおいて）
+
+12/12 Rails基礎20
+      allow_nil: ture : これを設定することで、nilをユニークから排除できる。
+
+      Rails基礎２１
+      enunm : 名前を整数で定義できる。　enum status: {draft: 0, published: 1}
