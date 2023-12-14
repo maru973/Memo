@@ -10,3 +10,6 @@
 
       Rails基礎２１
       enunm : 名前を整数で定義できる。　enum status: {draft: 0, published: 1}
+
+12/13 Rails基礎２１
+      data: { turbo: false } : Turboフレームの挙動を無効にする。
