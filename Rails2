@@ -13,3 +13,6 @@
 
 12/13 Rails基礎２１
       data: { turbo: false } : Turboフレームの挙動を無効にする。
+
+12/26 Rails応用１
+      slim : htmlフォーマットより簡素化したフォーマット。
