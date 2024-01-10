@@ -19,3 +19,6 @@
 
 12/28 ミニアプリ制作
       target: :_blank : link_toのリンク先URLを別のタブで開く。
+
+1/10 Rails応用４
+      assign_attributes　: 特定のattributeを変更するためのメソッド。DBには保存がされないから、次以降の処理でsaveメソッドを使う。
