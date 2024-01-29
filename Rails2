@@ -29,3 +29,10 @@
 
 １/19 ActiveRecord演習      
       inner join : SQL文。他のテーブルと結合できる。
+
+1/29 form_with勉強会
+      form_withで使うmodel : DBを使う時はmodelを使う。そうすることでフォームのバリデーションに引っかかった時も他のフォームに入力したものは残ってリダイレクトされる。
+      form_withで使うurl : バリデーションに引っかかっても入力情報が残らない。
+      modelを使った場合とurlを使った場合でHTMLの変換文が変わる。（idとname)
+      form_label : Rspecを使う際に認識される。
+
