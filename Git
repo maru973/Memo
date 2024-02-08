@@ -24,4 +24,17 @@
 
 2/8 Udemy(Git)
   git init : .gitディレクトリ（ローカルリポジトリ）が作成される。 .gitの中にあるobjectに圧縮ファイルやツリーファイル、コミットファイルが保存される。configにはインデックスファイルが追加される。
+  
   git diff : git addする前の変更分を確認できる。　git diff --stagedはgit commitする前の変更分が見れる。
+  
+  git config --global alias.ci commit : git commitをgit ciと打てるようになる。他のコマンドにも使える。
+                                        ex. git config --global alias.st status
+                                        --globalをつけるとPC全体に設定が反映される。
+
+  git checkout -- . : ファイルへの全変更を取り消す。(git addする前の場合)
+                      ワークツリーで変更を加えてから、変更を削除するためにこのコマンドを実行すると前回ステージにあげた情報を元にワークツリーの変更を戻す。
+
+  git reset HEAD . : ステージにあげた変更を全消しする。ワークツリーのファイルの変更は削除されない。ワークツリーのファイル変更も削除したい場合はこのコマンドの後にgit checkoutをする。
+
+  git commit --amend : 直前のコミットをやり直す。（push前)
+
