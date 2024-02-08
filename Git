@@ -23,5 +23,5 @@
                 　　Gitはデータを圧縮してスナップショットで保存する。
 
 2/8 Udemy(Git)
-  git init : .gitディレクトリ（ローカルリポジトリ）が作成される。 .gitの中にあるobjectに圧縮ファイルやツリーファイル、コミットファイルが保存される。configにはindexファイルが追加される。
-  
+  git init : .gitディレクトリ（ローカルリポジトリ）が作成される。 .gitの中にあるobjectに圧縮ファイルやツリーファイル、コミットファイルが保存される。configにはインデックスファイルが追加される。
+  git diff : git addする前の変更分を確認できる。　git diff --stagedはgit commitする前の変更分が見れる。
