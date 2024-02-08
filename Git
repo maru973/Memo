@@ -38,3 +38,7 @@
 
   git commit --amend : 直前のコミットをやり直す。（push前)
 
+  git fetch origin : リモートリポジトリの情報をローカルリポジトリに持ってくる。（remotes/origin/masterというところに保存される）　ワークツリーにはgit merge origin/masterで反映できる。
+
+  git pull origin maseter : fetchしてmergeするを一度に行う。
+
