@@ -6,3 +6,19 @@
   memo : 子要素の一番最初につけることで、親要素の再レンダリングにともなって子要素も再レンダリングされてしまうのを防ぐ。（再レンダリングの最適化）
 
   useCallback : 実際は変更していないのに、アロー関数によって変更が加えられたと判断されて再レンダリングされるのを防ぐ。
+
+2/13 Udemy(React)
+  Inlinestyle : JSファイルにそのままスタイルを書いていく方法。
+
+  CSSモジュール : コンポーネントに対応するように作成したCSSファイル。他のコンポーネントで同じ名前を使ってもimport名が違えば別物として扱われる。
+                "node-sass"をインストールする。
+
+  Styled JSX : コンポーネントの<style jsx="true">の中にCSSスタイルを記述することでスタイルが適用できる。
+                "styled-jsx"をインストールする。
+
+  Styled Components : コンポーネントの要素の後ろに関数を定義してその関数を要素内に記述することでスタイルが適用できる。
+                      "styled-components"をインストールする。
+
+  Emotion : Styled JSXやStyled Componentsなどいろいろな方法が使える。
+            "@emotion/react"と"@emotion/styled"をインストールする。
+            適用したいコンポーネントに/** @jsx jsx */と記述する。（エラーが出る場合は/** @jsxRuntime classic */を追記。）
