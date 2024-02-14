@@ -29,3 +29,5 @@
   useParams : 個々のURLを取得できる。 ex."/page1/:id"
 
   クエリパラメータ : URLに?を使って条件を設定する。
+
+  history : 画面遷移の時に使う。
