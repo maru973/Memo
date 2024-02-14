@@ -22,3 +22,10 @@
   Emotion : Styled JSXやStyled Componentsなどいろいろな方法が使える。
             "@emotion/react"と"@emotion/styled"をインストールする。
             適用したいコンポーネントに/** @jsx jsx */と記述する。（エラーが出る場合は/** @jsxRuntime classic */を追記。）
+
+2/14 Udemy(React)
+  React router : Reactでルートを設定する。　ホームページにはexactをつけて完全一致したもののみtrueにしないと他のページのURL("/page1"のような)場合も"/"が一致しているため遷移しなくなる。
+
+  useParams : 個々のURLを取得できる。 ex."/page1/:id"
+
+  クエリパラメータ : URLに?を使って条件を設定する。
