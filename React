@@ -51,3 +51,6 @@
 
 2/20 React練習
   ReactRouter　: バージョン６ではSwitchを使わず、Routesを使う。
+
+2/29 チーム開発
+  onSubmit : formタグの中に入れることでEnterを押すだけで登録ができるようになる。
