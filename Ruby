@@ -16,3 +16,7 @@
 
       include?('###') : （）内の文字列を含むかどうか。
                         例) "Hello".include?("lo") => true, "Hello".include?("ol") => false
+
+      .map(&:to_i) : .map{ |obj| obj.to_i }と同結果になる。
+                  例）　["1", "2", "3"].map{|v| v.to_i} => [1, 2, 3]
+                     ["1", "2", "3"].map(&:to_i) => [1, 2, 3]
