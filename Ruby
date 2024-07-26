@@ -20,3 +20,15 @@
       .map(&:to_i) : .map{ |obj| obj.to_i }と同結果になる。
                   例）　["1", "2", "3"].map{|v| v.to_i} => [1, 2, 3]
                      ["1", "2", "3"].map(&:to_i) => [1, 2, 3]
+
+      rand : ランダムで数字を表示するメソッド。　　rand(1..10)にすると１〜１０の中からランダムで選ばれる。
+
+      p, puts, print : pは文字列だと""も一緒に出力される。inspectメソッドを呼び出している。デバッグとして主に使う。
+                  　　　　　　putsは出力後の末尾に改行が入る。 例) puts "こんにちは" -> こんにちは　
+                                                    puts 123          １２３
+                     printは出力後の改行はない。 例) print "こんにちは" -> こんにちは123
+                                                print 123
+
+      inspect : オブジェクトや配列などをわかりやすく文字列で返してくれるメソッド。
+                例) user = User.find(1) -> "#<User id: 1, name: \"test\", created_at: \"2024-01-01 11:11:11\", updated_at: \"2024-01-01 11:11:11\", email: \"xxx@x.x\", password: \"xxxxxxx\">"
+                    p user.inspect
