@@ -5,3 +5,4 @@
               例) $text = '2024';          -> 2024
                   return intval($text);
       
+     $a xor $b : $a または $b のどちらかが true でかつ両方とも true でない場合に true
