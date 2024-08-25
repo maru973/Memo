@@ -6,3 +6,5 @@
                   return intval($text);
       
      $a xor $b : $a または $b のどちらかが true でかつ両方とも true でない場合に true
+
+　　　switch-case-default : if文よりも単純な選択の条件分岐の時に適している。後ろの処理も行ってしまうため、breakをそれぞれの分岐で入れる。
