@@ -5,12 +5,15 @@
               例) $text = '2024';          -> 2024
                   return intval($text);
       
-     $a xor $b : $a または $b のどちらかが true でかつ両方とも true でない場合に true
+8/25 $a xor $b : $a または $b のどちらかが true でかつ両方とも true でない場合に true
 
 　　　switch-case-default : if文よりも単純な選択の条件分岐の時に適している。後ろの処理も行ってしまうため、breakをそれぞれの分岐で入れる。
 
-     implode : 配列の要素を結合できる。(= join('', $text)も同じ処理が可能)
+8/26 implode : 配列の要素を結合できる。(= join('', $text)も同じ処理が可能)
                例) $text = ['I', 'love', 'potato', '.'] 
                    implode($text)                            -> I love potato.
 
      function hoge(&$number) {処理内容} : 仮引数に&がつくと処理渡しを行う。関数外の変数を関数で使用した場合、変数には関数内で処理した情報が格納される。
+
+8/29 public static function メソッド名 : メソッドの定義方法。rubyでいうdef self.メソッド名と同義。
+　　　echo メソッド名::strategy();で呼び出しが可能。
