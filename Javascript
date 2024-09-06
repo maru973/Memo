@@ -40,3 +40,11 @@
                             実行中のコードから見た外部スコープのこと。内側のコードから外側のコードは参照できる。
                         　　　　　　　　どのようにしてスコープを決定するかの仕様。
 
+9/6 Udemy(JS)
+            typeof : 変数の型を表示。let name = 'Taro'
+                                   console.log(typeof name); => string
+
+            substring : 指定された数だけ文字列から取り出す。　let name = 'Taro'
+                                   　　　　　　　　　　　　console.log(substring(0, 2)); => Ta
+
+            unshift : 配列の一番最初に値を入れる。＜ー＞　shift : 配列の一番最初の値を削除する。（popは一番最後の値を削除）
