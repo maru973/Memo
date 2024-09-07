@@ -48,3 +48,11 @@
                                    　　　　　　　　　　　　console.log(substring(0, 2)); => Ta
 
             unshift : 配列の一番最初に値を入れる。＜ー＞　shift : 配列の一番最初の値を削除する。（popは一番最後の値を削除）
+
+9/7 Udemy(JS)
+            for(初期化処理; 継続する条件; 実行される処理)  : ループ処理。  ex. for(let i = 0; i < 5; i = i + 1){処理}
+                                                　　　　for(let i in 配列)の場合、iは要素数が入る。
+                                                　　　　for(let v of 配列)の場合、iは配列の値が入る。<-対応していないブラウザもある。
+
+                                    
+
