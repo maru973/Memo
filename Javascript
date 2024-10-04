@@ -62,3 +62,6 @@
             this : 直前のオブジェクトを参照する。
 
             bind : thisの参照を指定することができるメソッド。引数にオブジェクトを指定するとthisを制限できる。
+
+10/4 Udemy(JS)
+            IntersectionObserver : 指定した要素を監視する。unobserveでそれ以降監視しないようにすることができる。
