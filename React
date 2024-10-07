@@ -57,9 +57,10 @@
 
 10/7 Udemy(React)
   Fregment : 余計なタグを使いたくなくて、2つ以上のグループができてしまう場合に使用する。
-          <React.Fregment>
-            <div>
-              <h1>あああ</h1>
-            </div>
-            <p>いいい</p>
-          </React.Fregment>
+          右と左は同義。
+          <React.Fregment>             <>
+            <div>                        <div>
+              <h1>あああ</h1>                <h1>あああ</h1>
+            </div>                       </div>
+            <p>いいい</p>                 <p>いいい</p>
+          </React.Fregment>            </>
