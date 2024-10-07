@@ -54,3 +54,12 @@
 
 2/29 チーム開発
   onSubmit : formタグの中に入れることでEnterを押すだけで登録ができるようになる。
+
+10/7 Udemy(React)
+  Fregment : 余計なタグを使いたくなくて、2つ以上のグループができてしまう場合に使用する。
+          <React.Fregment>
+            <div>
+              <h1>あああ</h1>
+            </div>
+            <p>いいい</p>
+          </React.Fregment>
